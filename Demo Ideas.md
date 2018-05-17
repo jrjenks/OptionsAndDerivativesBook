@@ -1,2 +1,3 @@
 - Horner's method (Chapter 10). See class PolynomialFunction. 
 - Newton's method (Chapter 10). See class NewtonMethod.
+- Maybe something based on the video "Black Scholes: A Simple Explanation" https://www.youtube.com/watch?v=Xy_txjKPNyg
