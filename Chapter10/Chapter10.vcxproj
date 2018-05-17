@@ -152,7 +152,9 @@
     <ClInclude Include="NewtonMethod.h" />
     <ClInclude Include="PolynomialFunction.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SampleFunc.h" />
     <ClInclude Include="SampleFunction.h" />
+    <ClInclude Include="SimpsonsIntegration.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -161,7 +163,9 @@
     <ClCompile Include="Derivative.cpp" />
     <ClCompile Include="NewtonMethod.cpp" />
     <ClCompile Include="PolynomialFunction.cpp" />
+    <ClCompile Include="SampleFunc.cpp" />
     <ClCompile Include="SampleFunction.cpp" />
+    <ClCompile Include="SimpsonsIntegration.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

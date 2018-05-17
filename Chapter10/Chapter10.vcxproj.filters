@@ -39,6 +39,12 @@
     <ClInclude Include="Derivative.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SimpsonsIntegration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,6 +63,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Derivative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpsonsIntegration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFunc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
