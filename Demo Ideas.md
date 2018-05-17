@@ -1,1 +1,2 @@
-s
+- Horner's method (Chapter 10). See class PolynomialFunction. 
+- Newton's method (Chapter 10). See class NewtonMethod.
