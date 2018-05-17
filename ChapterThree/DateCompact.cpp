@@ -21,7 +21,7 @@ DateCompact::DateCompact(int year, int month, int day)
 
 DateCompact::DateCompact(const DateCompact &p)
 {
-	strcpy(m_date, p.m_date);
+	strcpy_s(m_date, p.m_date);
 }
 
 DateCompact::~DateCompact()
@@ -32,7 +32,7 @@ DateCompact &DateCompact::operator=(const DateCompact &p)
 {
 	if (&p != this)
 	{
-		strcpy(m_date, p.m_date);
+		strcpy_s(m_date, p.m_date);
 	}
 	return *this;
 }
@@ -78,7 +78,7 @@ void DateCompact::print()
 {
 	// copy the m_date string into a NULL terminated string (with 9 characters).
 	char s[9];
-	strncpy(s, m_date, 8);
+	strncpy_s(s, m_date, 8);
 	s[8] = '\0';             // properly terminate the string
 	cout << s << endl;
 }
